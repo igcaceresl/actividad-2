@@ -1,0 +1,64 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.menu{  
+    background: rgb(52, 52, 52);
+    width: 15%; 
+}
+
+ul{
+    padding-top: 5vh;
+    padding-left: 2vh;
+}
+
+a{
+    display: flex;
+    padding-left: 5vh;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+.text-0{
+    width: 80%;
+
+}
+
+.text-1, .text-2, .text-3, .text-4{
+    height: 25vh;
+    padding: 5vh;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.text-1{
+    background: rgb(0, 215, 244);
+}
+
+.text-2{
+    background: rgb(255, 223, 1);
+}
+
+.text-3{
+    background: rgb(253, 123, 3);
+}
+
+.text-4{
+    background: rgb(225, 20, 0);
+}
+
+.col{
+    width: 5%;
+    background: rgb(52, 52, 52);
+}
